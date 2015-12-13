@@ -1,5 +1,5 @@
-FROM steeve/cross-compiler:base
-MAINTAINER Steeve Morin "steeve.morin@gmail.com"
+FROM hypernurb/cross-compiler:base
+MAINTAINER Ivan Križnar "ivan@simplified.me"
 
 RUN apt-get update && apt-get -y install mingw-w64
 

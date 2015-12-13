@@ -1,5 +1,5 @@
-FROM steeve/cross-compiler:base
-MAINTAINER Steeve Morin "steeve.morin@gmail.com"
+FROM hypernurb/cross-compiler:base
+MAINTAINER Ivan Križnar "ivan@simplified.me"
 
 # Add the cross compiler sources
 RUN echo "deb     http://toolchains.secretsauce.net unstable main" >> /etc/apt/sources.list && \

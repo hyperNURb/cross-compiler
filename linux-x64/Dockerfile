@@ -1,5 +1,5 @@
-FROM steeve/cross-compiler:base
-MAINTAINER Steeve Morin "steeve.morin@gmail.com"
+FROM hypernurb/cross-compiler:base
+MAINTAINER Ivan Križnar "ivan@simplified.me"
 
 ENV CROSS_TRIPLE x86_64-linux-gnu
 ENV CROSS_ROOT /usr/${CROSS_TRIPLE}

@@ -1,4 +1,5 @@
 PLATFORMS = android-arm \
+			android-arm64 \
 			darwin-x64 \
 			linux-x86 \
 			linux-x64 \
@@ -6,7 +7,7 @@ PLATFORMS = android-arm \
 			windows-x86 \
 			windows-x64
 DOCKER = docker
-IMAGE = steeve/cross-compiler
+IMAGE = hypernurb/cross-compiler
 
 all:
 	$(DOCKER) build -t $(IMAGE):base .
